@@ -7,7 +7,7 @@ import { useNavigation } from "@react-navigation/native";
     return(
         <ScrollView>
                <View style={{flexDirection:'row',marginTop:10,}}>
-             <TextInput style={{padding:20,borderWidth:1,marginLeft:10,marginRight:10,borderRadius:5,width:300}} placeholder="type message"/>
+             <TextInput style={{padding:20,borderWidth:1,marginLeft:10,marginRight:10,borderRadius:5,width:300}} placeholder="type message" multiline={true}/>
              <TouchableOpacity style={{fontSize:15, fontWeight:'bold',borderWidth:1,padding:10,backgroundColor:'#ffffff',borderRadius:5}}><Text>SEND</Text></TouchableOpacity>
             </View>
 
