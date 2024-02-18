@@ -5,15 +5,17 @@ export const logStyle=StyleSheet.create({
         margin:20,
         backgroundColor:'white',
         borderRadius:10,
+        borderBottomWidth:2
     },
     NextButton:{
         backgroundColor:'#3887BE',
-        fontSize:20,
+        fontSize:30,
         fontWeight:'bold',
         textAlign:'center',
         marginHorizontal:20,
         padding:6,
-        borderRadius:8
+        borderRadius:8,
+        color:'white'
     },
  
     condition:{

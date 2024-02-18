@@ -24,6 +24,7 @@ export const styles=StyleSheet.create({
       color:'white', 
       marginTop:10,
       marginBottom:10,
+      fontWeight:'bold',
       backgroundColor:'black', 
       textAlign:'center',
       padding:10 ,
@@ -34,8 +35,7 @@ export const styles=StyleSheet.create({
         padding:10,
         marginTop:10,
         marginBottom:10,
-        backgroundColor:'white',
-        borderWidth:2,
+        borderWidth:3,
         borderRadius:7,
         fontWeight:'bold'
      },
@@ -48,7 +48,7 @@ export const styles=StyleSheet.create({
      },
      beaty:{
       width:180,
-      height:330,
+      height:245,
       borderRadius:10
      },
     

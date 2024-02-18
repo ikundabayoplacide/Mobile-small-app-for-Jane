@@ -7,7 +7,7 @@ export const ImageStyle=StyleSheet.create({
     },
     beauty:{
         height:200,
-        borderRadius:10,
+        borderRadius:4,
        width:200
     },
     beautywhole:{

@@ -9,16 +9,17 @@ export const sty=StyleSheet.create({
         padding:6,
         borderRadius:10,
         backgroundColor:'white',
-        borderWidth:1,
-        marginHorizontal:20,
-        marginTop:7,
+         borderBottomWidth:2,
+          marginHorizontal:20,
+        marginTop:20,
        },
        NextButton:{
           fontSize:30,
-          backgroundColor:'black',
+          backgroundColor:'#3887BE',
           margin:19,
           borderRadius:10,
           color:'white',
+          fontWeight:'bold',
           textAlign:'center'
        }
 })
