@@ -10,7 +10,6 @@ import Image from './Screen/Image';
 
 
 
-
 const Stack=createNativeStackNavigator();
 
 export default function App() {
